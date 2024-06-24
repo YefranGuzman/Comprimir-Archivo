@@ -38,7 +38,7 @@ class Program
 
             // Crear el archivo ZIP en la carpeta de destino
             // Crear el nombre del archivo ZIP con fecha y hora
-            string fechaHoraActual = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            string fechaHoraActual = DateTime.Now.ToString("yyyyMMdd");
             string zipFileName = $"archivo_comprimido_{fechaHoraActual}.zip";
             string zipPath = Path.Combine(destinationFolder, zipFileName);
 
